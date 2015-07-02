@@ -1,0 +1,26 @@
+{
+  "name": "gulp-sjsp",
+  "version": "0.0.1",
+  "description": "Gulp plugin for sjsp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kitak/gulp-sjsp.git"
+  },
+  "author": "Keisuke KITA <kei.kita2501@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kitak/gulp-sjsp/issues"
+  },
+  "homepage": "https://github.com/kitak/gulp-sjsp#readme",
+  "keywords": [
+    "gulpplugin",
+    "sjsp",
+    "statistics"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "node-sjsp": "^1.0.3",
+    "through2": "^2.0.0"
+  }
+}
