@@ -18,7 +18,8 @@ var sjsp = require('gulp-sjsp');
 
 gulp.task('sjsp', function () {
   gulp.src('./alpha.js')
-      .pipe(sjsp());
+      .pipe(sjsp())
+      .pipe(gulp.dest('./dist'));
 });
 ```
 
@@ -30,7 +31,8 @@ var sjsp = require('gulp-sjsp');
 
 gulp.task('sjsp', function () {
   gulp.src('./alpha.js')
-      .pipe(sjsp({interval: 5}));
+      .pipe(sjsp({interval: 5}))
+      .pipe(gulp.dest('./dist'));
 });
 ```
 
